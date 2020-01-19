@@ -18,7 +18,7 @@ describe('demo calculator tests',function(){
        //var result = element(by.cssContainingText('.ng-binding','5'));
        //expect(result.getText()).toBe('7-','value not marching');
        homepage.verifyResult('7');
-       browser.sleep(2000);
+       browser.sleep(5000);
     });
     it('substraction test',function(){
    
